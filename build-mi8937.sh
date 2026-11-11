@@ -13,9 +13,9 @@ if [ -z "$VARIANT" ]; then
 fi
 
 # ================= PATH =================
-DEFCONFIG="msm8937//unitrix-perf_defconfig"
-TEMP_DEFCONFIG="msm8937//unitrix-perf_defconfig"
-FRAGMENT="msm8937/mi8937.config"
+DEFCONFIG="vendor/xiaomi/msm8937//unitrix-perf_defconfig"
+TEMP_DEFCONFIG="vendor/xiaomi/msm8937//unitrix-perf_defconfig"
+FRAGMENT="vendor/xiaomi/msm8937/mi8937.config"
 ROOTDIR=$(pwd)
 OUTDIR="$ROOTDIR/out/arch/arm64/boot"
 ANYKERNEL_DIR="$ROOTDIR/AnyKernel"
